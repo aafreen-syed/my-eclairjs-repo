@@ -5,7 +5,7 @@ Simple POC for eclairjs for wordcount (on docker container provided)
 ## Installation
 
 ```
-$npm install
+$ npm install
 ```
 
 Pull docker image containing dependencies for eclairjs
