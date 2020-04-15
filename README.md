@@ -25,6 +25,11 @@ sudo docker run -p 8888:8888 -v ~/my-eclairjs-repo/data/:/data eclairjs/minimal-
 ```
 node --harmony app.js
 ```
+View webpage at - 
+
+```
+http://localhost:3000/
+```
 ## Built with/referring to
 
 * [Eclairjs example online](http://www.techglows.com/write-your-first-node-js-express-app-with-eclairjs/)
@@ -32,8 +37,3 @@ node --harmony app.js
 * [Eclairjs documenation](https://eclairjs.github.io/)
 
 
-View webpage at - 
-
-```
-http://localhost:3000/
-```
