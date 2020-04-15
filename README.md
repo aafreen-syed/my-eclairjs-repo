@@ -19,6 +19,12 @@ Run docker with sharing 'data' folder (we need dream.txt file from data folder)
 sudo docker run -p 8888:8888 -v <path to repo>/data/:/data eclairjs/minimal-gateway:0.9
 sudo docker run -p 8888:8888 -v ~/my-eclairjs-repo/data/:/data eclairjs/minimal-gateway:0.9
 ```
+After retrieving Docker's IP address (```docker-machine ip```), you will need to set two environment variables:
+
+```
+export JUPYTER_HOST=??.??.??.?? (your docker ip, defaults to 127.0.0.1)
+export JUPYTER_PORT=8888
+```
 
 ## Run application
 
