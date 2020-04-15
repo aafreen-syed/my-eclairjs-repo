@@ -13,7 +13,7 @@ Pull docker image containing dependencies for eclairjs
 ```
 docker pull eclairjs/minimal-gateway:0.9
 ```
-Run docker with sharing data folder 
+Run docker with sharing 'data' folder (we need dream.txt file from data folder)
 
 ```
 sudo docker run -p 8888:8888 -v <path to repo>/data/:/data eclairjs/minimal-gateway:0.9
